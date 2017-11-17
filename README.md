@@ -1,4 +1,8 @@
 
+Only used in Ubuntu blend distros, but anything that can run 'dig +short' should be fine. 
+
+For now best if run in a screen session and left alone, will be made into a service later.
+
 domainName = 'YOUR_DOMAIN_NAME_HERE'
 
 ssoKey = 'YOUR_SSO_KEY_FROM_GODADDY'
