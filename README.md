@@ -3,8 +3,10 @@ Only used in Ubuntu blend distros, but anything that can run 'dig +short' should
 
 For now best if run in a screen session and left alone, will be made into a service later.
 
+On line 18:
 domainName = 'YOUR_DOMAIN_NAME_HERE'
 
+On line 21:
 ssoKey = 'YOUR_SSO_KEY_FROM_GODADDY'
 
 Change those values in the script. Runs every 60 minutes by default, but can be edited to whatever amount of time you need
